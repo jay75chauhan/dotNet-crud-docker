@@ -2,18 +2,18 @@ version: "3.9"
 
 services:
   csharpapp:
-    container_name: csharpapp
-    image: jay75chauhan/dotNet_crud:1.0
+    container_name: dotnet_crud
+    image: jay75chauhan/dotnet_crud:1.0
     build: .
     ports:
       - "8080:80"
     environment:
       ConnectionStrings__DefaultConnection: "Host=db;Database=postgres;Username=postgres;Password=postgres"
     depends_on:
-      - db
+      - dotNet_crud_db
 
-  db:
-    container_name: db
+  dotNet_crud_db:
+    container_name: dotNet_crud_db
     image: postgres:12
     ports:
       - "5432:5432"
