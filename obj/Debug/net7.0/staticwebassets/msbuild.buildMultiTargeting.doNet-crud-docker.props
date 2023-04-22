@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\doNet-crud-docker.props" />
+</Project>

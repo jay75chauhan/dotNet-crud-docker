@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "USDHQj2qOOSkzv/jG9unKs/84XmRJDfK+JKX+L81qYM=",
+  "Source": "doNet-crud-docker",
+  "BasePath": "_content/doNet-crud-docker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
